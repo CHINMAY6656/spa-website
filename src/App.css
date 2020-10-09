@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.input{
+  margin: 1rem;
+}
+.Main{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Login{
+  padding: 7rem 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+    border-radius: 2px;
+}
+.Register{
+  border-left: #282c34 solid 1px;
+  padding: 7rem 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: visible;
+  
+}
+.res {
+  padding: 7rem 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: visible;
+}
+.App-link {
+  color: #61dafb;
+}
+.newRes{
+  border-left: #282c34 solid 1px;
+  padding: 7rem 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: visible;
+}
+.dash{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Tile{
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width:800px){
+  .Main{
+    flex-direction: column;
+  }
+  .dash{
+    flex-direction: column;
+  }
+  .newRes{
+    padding-top: 1rem;
+    border-top: #282c34 solid 1px;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
